@@ -1,10 +1,12 @@
 # Object Security
 
-Simple overview of use/purpose.
+A proof-of-concept demonstration of a simple handshake with Elliptic Curve Diffie-Hellman.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This demo simulates an IoT connection between client and server using UDP with a maximum packet size of 64 bytes.
+Ephemeral Diffie-Hellman Key Exchange handshake is established using an elliptic curve.
+AES is used to encrypt data sent over an unencrypted channel.
 
 ## Getting Started
 
@@ -19,22 +21,19 @@ An in-depth paragraph about your project and overview of use.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* First run server.py to initialize server
+* Run client.py to initiate key exchange and establish a connection
+* Send data to server
+* Close connection with "Bye!"
 ```
-python3 bob.py
+python3 server.py
 ```
 Open a new terminal and enter the command:
 ```
-python3 alice.py
+python3 client.py
 ```
 This will initiate the handshake.
-## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
 ## Authors
 
