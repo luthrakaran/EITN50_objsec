@@ -35,7 +35,7 @@ python3 client.py
 This will initiate the handshake.
 
 
-## Authors
+## Author
 
-Karan Luthra _dic06klu@student.lu.se_
+Karan Luthra _luthrakaran@gmail.com_
 
